@@ -1,170 +1,170 @@
-@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600&display=swap');
 
 :root {
-    --main-color: linear-gradient(360deg, #ff8008 0%, #ffc837 100%);
-    --secondary-color: linear-gradient(0deg, #0044f8 -87.4%, #0887ff 81.3%);
-    --black: #2f3952;
-    --white: #fafcff;
-    --shadow: 0px 12px 37px rgba(47, 57, 82, 0.2);
+	--main-color: linear-gradient(360deg, #ff8008 0%, #ffc837 100%);
+	--secondary-color: linear-gradient(0deg, #0044f8 -87.4%, #0887ff 81.3%);
+	--black: #2f3952;
+	--white: #fafcff;
+	--shadow: 0px 12px 37px rgba(47, 57, 82, 0.2);
 }
 
 body {
-    background-color: var(--white);
-    font-family: "Fredoka", sans-serif;
-    color: var(--black);
-    margin-bottom: 2.5rem;
+	background-color: var(--white);
+	font-family: 'Fredoka', sans-serif;
+	color: var(--black);
+	margin-bottom: 2.5rem;
 }
 section {
-    margin-top: 1.7vh;
+	margin-top: 1.7vh;
 }
 a {
-    text-decoration: none;
-    background: var(--main-color);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+	text-decoration: none;
+	background: var(--main-color);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 #logo {
-    background-color: var(--white);
-    border-radius: 75px;
-    padding: 3px 10px;
-    margin-top: 3vh;
+	background-color: var(--white);
+	border-radius: 75px;
+	padding: 3px 10px;
+	margin-top: 3vh;
 }
 #logo img {
-    width: 100%;
+	width: 100%;
 }
 #lading-page-img {
-    background-image: url(imgs/Landing\ Page\ Image.png);
-    height: 34vh;
-    background-position: left center;
-    background-size: 140%;
-    box-shadow: 0px 40px 37px -30px #2f395233;
-    border-radius: 0px 0px 50px 50px;
+	background-image: url(imgs/Landing\ Page\ Image.avif);
+	height: 34vh;
+	background-position: left center;
+	background-size: 140%;
+	box-shadow: 0px 40px 37px -30px #2f395233;
+	border-radius: 0px 0px 50px 50px;
 }
 #card {
-    padding: 2vh 0;
-    box-shadow: var(--shadow);
-    border-radius: 1.5rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+	padding: 2vh 0;
+	box-shadow: var(--shadow);
+	border-radius: 1.5rem;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
 }
 .app {
-    border-radius: 1.75rem;
-    box-shadow: var(--shadow);
-    margin-bottom: 6vh;
+	border-radius: 1.75rem;
+	box-shadow: var(--shadow);
+	margin-bottom: 6vh;
 }
 
 .circle {
-    padding-bottom: 25%;
-    border-radius: 50%;
+	padding-bottom: 25%;
+	border-radius: 50%;
 }
 
 .bg-main {
-    background: var(--main-color);
-    color: var(--white);
+	background: var(--main-color);
+	color: var(--white);
 }
 .bg-secondary {
-    background: var(--secondary-color);
+	background: var(--secondary-color);
 }
 .white-bg {
-    background-color: var(--white);
-    box-shadow: var(--shadow);
+	background-color: var(--white);
+	box-shadow: var(--shadow);
 }
 .black-bg {
-    background-color: var(--black);
+	background-color: var(--black);
 }
 
 .txt-big {
-    font-weight: 600;
-    font-size: 2.125rem;
-    margin-top: 6vh;
-    margin-bottom: 2vh;
+	font-weight: 600;
+	font-size: 2.125rem;
+	margin-top: 6vh;
+	margin-bottom: 2vh;
 }
 .txt-medium {
-    font-weight: 500;
-    background: var(--secondary-color);
-    font-size: 1.5rem;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+	font-weight: 500;
+	background: var(--secondary-color);
+	font-size: 1.5rem;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 .txt-regular {
-    font-weight: 400;
-    font-size: 1rem;
+	font-weight: 400;
+	font-size: 1rem;
 }
 .txt-regular img {
-    width: 2rem;
+	width: 2rem;
 }
 .txt-small {
-    font-weight: 400;
-    font-size: 0.75rem;
+	font-weight: 400;
+	font-size: 0.75rem;
 }
 .txt-right {
-    text-align: right;
+	text-align: right;
 }
 .txt-center {
-    text-align: center;
-    margin-top: 1rem;
+	text-align: center;
+	margin-top: 1rem;
 }
 
 #typo {
-    background: var(--black);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    margin: 0;
+	background: var(--black);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	margin: 0;
 }
 
 .no-padding {
-    padding: 0 !important;
+	padding: 0 !important;
 }
 
 @media screen and (min-width: 768px) {
-    #logo {
-        margin-top: 8.5vh;
-        padding: 6px 16px;
-    }
-    section {
-        margin-top: 5vh;
-    }
-    #card {
-        padding: 3vh 0;
-        border-radius: 2rem;
-    }
+	#logo {
+		margin-top: 8.5vh;
+		padding: 6px 16px;
+	}
+	section {
+		margin-top: 5vh;
+	}
+	#card {
+		padding: 3vh 0;
+		border-radius: 2rem;
+	}
 
-    .txt-big {
-        margin-top: 15vh;
-        margin-bottom: 4vh;
-    }
-    .txt-big {
-        font-size: clamp(2rem, 3vw, 3rem);
-    }
-    .txt-medium {
-        font-size: clamp(1.5rem, 2.5vh, 2.5rem);
-        margin-bottom: 4vh;
-    }
-    .txt-regular {
-        font-size: 1.5rem;
-    }
-    .txt-small {
-        font-size: 1rem;
-    }
+	.txt-big {
+		margin-top: 15vh;
+		margin-bottom: 4vh;
+	}
+	.txt-big {
+		font-size: clamp(2rem, 3vw, 3rem);
+	}
+	.txt-medium {
+		font-size: clamp(1.5rem, 2.5vh, 2.5rem);
+		margin-bottom: 4vh;
+	}
+	.txt-regular {
+		font-size: 1.5rem;
+	}
+	.txt-small {
+		font-size: 1rem;
+	}
 
-    #lading-page-img {
-        background-image: url(imgs/Landing\ Page\ Image.png);
-        height: 85vh;
-        background-position: left center;
-        background-size: cover;
-        box-shadow: 0px 40px 37px -30px #2f395233;
-        border-radius: 0px 0px 0px 50px;
-    }
-    #landing-text {
-        height: clamp(80vh, 80vh, 100vh);
-    }
+	#lading-page-img {
+		background-image: url(imgs/Landing-Page-Image.avif);
+		height: 85vh;
+		background-position: left center;
+		background-size: cover;
+		box-shadow: 0px 40px 37px -30px #2f395233;
+		border-radius: 0px 0px 0px 50px;
+	}
+	#landing-text {
+		height: clamp(80vh, 80vh, 100vh);
+	}
 
-    .circle {
-        padding-bottom: 8%;
-        border-radius: 50%;
-    }
+	.circle {
+		padding-bottom: 8%;
+		border-radius: 50%;
+	}
 
-    .app {
-        border-radius: 5rem;
-    }
+	.app {
+		border-radius: 5rem;
+	}
 }
